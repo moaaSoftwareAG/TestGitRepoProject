@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/moaaSoftwareAG
   gitUsername: moaaSoftwareAG
   gitBranch: main
+services:
+- serviceName: project.testgitrepo.integrations:edgeFlow_1
+  packages:
+  - name: TestGitRepoProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2020
