@@ -8,7 +8,7 @@ packages:
   gitUsername: moaaSoftwareAG
   gitBranch: main
 services:
-- serviceName: project.testgitrepo.integrations:edgeFlow_1
+- serviceName: project.testgitrepo.integrations:edgeFlow_2
   packages:
   - name: TestGitRepoProject
     version: "1.0"
